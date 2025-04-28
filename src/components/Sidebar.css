@@ -1,0 +1,23 @@
+.sidebar {
+    width: 200px;
+    background: #e6f0ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .category-btn {
+    background: #b3d9ff;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .category-btn.active {
+    background: #3399ff;
+    color: white;
+  }
+  
